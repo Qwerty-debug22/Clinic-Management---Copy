@@ -1,0 +1,406 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\app.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\app.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\Clinic_Management.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\Clinic_Management.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\dashboard_admin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\dashboard_admin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\appointments.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\appointments.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\services.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\services.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\prescription_print.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\prescription_print.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\prescription_view.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\prescription_view.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\doctors.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\doctors.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\billing.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\billing.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\patient_profile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\patient_profile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\doctor_profile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\doctor_profile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\schedule_appointment.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\schedule_appointment.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\reset_admin.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\reset_admin.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\patients.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\patients.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\appointment_calendar.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\appointment_calendar.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\consultation_form.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\consultation_form.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\consultation_view.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\consultation_view.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\Create_admin.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\Create_admin.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\dashboard_doctor.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\dashboard_doctor.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\dashboard_patient.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\dashboard_patient.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\model.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A02904A5-6274-4C26-A001-FDF9FFD75185}|Clinic Management\\Clinic Management.pyproj|solutionrelative:Clinic Management\\templates\\model.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "login.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\login.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\login.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\login.html",
+              "RelativeToolTip": "Clinic Management\\templates\\login.html",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwEYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-09-13T13:04:33.659Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Clinic_Management.py",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\Clinic_Management.py",
+              "RelativeDocumentMoniker": "Clinic Management\\Clinic_Management.py",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\Clinic_Management.py",
+              "RelativeToolTip": "Clinic Management\\Clinic_Management.py",
+              "ViewState": "AgIAAA0CAAAAAAAAAAAAAB4CAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-09-13T12:55:34.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "doctors.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\doctors.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\doctors.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\doctors.html",
+              "RelativeToolTip": "Clinic Management\\templates\\doctors.html",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-04T10:19:42.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "register.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\register.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\register.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\register.html",
+              "RelativeToolTip": "Clinic Management\\templates\\register.html",
+              "ViewState": "AgIAADkAAAAAAAAAAAAkwFUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-09-13T13:31:30.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dashboard_admin.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\dashboard_admin.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\dashboard_admin.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\dashboard_admin.html",
+              "RelativeToolTip": "Clinic Management\\templates\\dashboard_admin.html",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAAAL4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-09-13T13:21:20.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "services.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\services.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\services.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\services.html",
+              "RelativeToolTip": "Clinic Management\\templates\\services.html",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAkwLsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-11T08:09:49.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app.py",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\app.py",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\app.py",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\app.py",
+              "RelativeToolTip": "Clinic Management\\templates\\app.py",
+              "ViewState": "AgIAACgCAAAAAAAAAAAAADkCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-10-05T15:07:33.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appointments.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\appointments.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\appointments.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\appointments.html",
+              "RelativeToolTip": "Clinic Management\\templates\\appointments.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-11T08:59:02.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "prescription_view.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\prescription_view.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\prescription_view.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\prescription_view.html",
+              "RelativeToolTip": "Clinic Management\\templates\\prescription_view.html",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAkwEkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-11T08:02:03.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "prescription_print.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\prescription_print.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\prescription_print.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\prescription_print.html",
+              "RelativeToolTip": "Clinic Management\\templates\\prescription_print.html",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAkwG4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-11T08:06:55.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "billing.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\billing.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\billing.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\billing.html",
+              "RelativeToolTip": "Clinic Management\\templates\\billing.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-11T08:14:38.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "schedule_appointment.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\schedule_appointment.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\schedule_appointment.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\schedule_appointment.html",
+              "RelativeToolTip": "Clinic Management\\templates\\schedule_appointment.html",
+              "ViewState": "AgIAALMAAAAAAAAAAAAowNIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-05T13:56:37.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "reset_admin.py",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\reset_admin.py",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\reset_admin.py",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\reset_admin.py",
+              "RelativeToolTip": "Clinic Management\\templates\\reset_admin.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-10-04T09:18:44.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "doctor_profile.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\doctor_profile.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\doctor_profile.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\doctor_profile.html",
+              "RelativeToolTip": "Clinic Management\\templates\\doctor_profile.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-04T10:28:13.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "patient_profile.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\patient_profile.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\patient_profile.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\patient_profile.html",
+              "RelativeToolTip": "Clinic Management\\templates\\patient_profile.html",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAkwIUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-09-13T13:49:24.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "patients.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\patients.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\patients.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\patients.html",
+              "RelativeToolTip": "Clinic Management\\templates\\patients.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAN0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-09-13T13:47:34.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "list.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\list.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\list.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\list.html",
+              "RelativeToolTip": "Clinic Management\\templates\\list.html",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowA0AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-05T13:40:34.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appointment_calendar.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\appointment_calendar.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\appointment_calendar.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\appointment_calendar.html",
+              "RelativeToolTip": "Clinic Management\\templates\\appointment_calendar.html",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAANoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-05T15:08:20.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "consultation_form.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\consultation_form.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\consultation_form.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\consultation_form.html",
+              "RelativeToolTip": "Clinic Management\\templates\\consultation_form.html",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowF4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-05T15:40:10.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "consultation_view.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\consultation_view.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\consultation_view.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\consultation_view.html",
+              "RelativeToolTip": "Clinic Management\\templates\\consultation_view.html",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowFUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-05T15:19:48.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create_admin.py",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\Create_admin.py",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\Create_admin.py",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\Create_admin.py",
+              "RelativeToolTip": "Clinic Management\\templates\\Create_admin.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-10-04T09:06:32.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "dashboard_doctor.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\dashboard_doctor.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\dashboard_doctor.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\dashboard_doctor.html",
+              "RelativeToolTip": "Clinic Management\\templates\\dashboard_doctor.html",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAowF0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-09-13T13:35:05.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "dashboard_patient.html",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\dashboard_patient.html",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\dashboard_patient.html",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\dashboard_patient.html",
+              "RelativeToolTip": "Clinic Management\\templates\\dashboard_patient.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-09-13T13:28:49.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "model.py",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\model.py",
+              "RelativeDocumentMoniker": "Clinic Management\\templates\\model.py",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Clinic Management\\Clinic Management - Copy\\Clinic Management\\templates\\model.py",
+              "RelativeToolTip": "Clinic Management\\templates\\model.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-10-05T16:10:34.909Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

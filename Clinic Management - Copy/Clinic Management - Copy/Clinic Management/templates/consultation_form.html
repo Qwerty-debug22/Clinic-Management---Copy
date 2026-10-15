@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Consultation Record - Lab 8</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .consultation-box {
+            max-width: 680px;
+            margin: 30px auto;
+            border: 2px dashed #000;
+            background-color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 30px;
+        }
+
+        .ascii-divider {
+            border-top: 1px dashed #000;
+            margin: 15px 0;
+        }
+
+        .form-control-custom {
+            border: none;
+            border-bottom: 1px solid #000;
+            border-radius: 0;
+            background: transparent;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+            .form-control-custom:focus {
+                box-shadow: none;
+                border-bottom: 2px solid #000;
+            }
+    </style>
+</head>
+<body class="bg-light">
+
+    <div class="container">
+        <div class="consultation-box shadow-sm">
+
+            <div class="ascii-divider"></div>
+            <h4 class="text-center text-uppercase fw-bold m-0">CONSULTATION RECORD</h4>
+            <div class="ascii-divider"></div>
+
+            <!-- Patient, Doctor, Date Linked Info -->
+            <div class="mb-3">
+                <div><strong>Patient:</strong> {{ appointment.patient.first_name }} {{ appointment.patient.last_name }}</div>
+                <div><strong>Doctor:</strong> {{ appointment.doctor.doctor_name }}</div>
+                <div><strong>Date:</strong> {{ today_str }}</div>
+            </div>
+
+            <form action="{{ url_for('new_consultation', appointment_id=appointment.appointment_id) }}" method="POST">
+                <input type="hidden" name="consultation_date" value="{{ today_str }}">
+
+                <div class="mb-3">
+                    <label for="chief_complaint" class="form-label fw-bold mb-0">Chief Complaint:</label>
+                    <textarea id="chief_complaint" name="chief_complaint" class="form-control form-control-custom" rows="2" required placeholder="[ Enter chief complaint here ]"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="clinical_notes" class="form-label fw-bold mb-0">Clinical Notes / History:</label>
+                    <textarea id="clinical_notes" name="clinical_notes" class="form-control form-control-custom" rows="2" placeholder="[ Enter medical history/notes ]"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="assessment" class="form-label fw-bold mb-0">Assessment:</label>
+                    <textarea id="assessment" name="assessment" class="form-control form-control-custom" rows="2" placeholder="[ Enter initial assessment ]"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="diagnosis" class="form-label fw-bold mb-0">Diagnosis:</label>
+                    <textarea id="diagnosis" name="diagnosis" class="form-control form-control-custom" rows="2" required placeholder="[ Enter diagnosis ]"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="treatment_plan" class="form-label fw-bold mb-0">Treatment Plan:</label>
+                    <textarea id="treatment_plan" name="treatment_plan" class="form-control form-control-custom" rows="2" required placeholder="[ Enter treatment plan ]"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="doctor_remarks" class="form-label fw-bold mb-0">Doctor's Remarks:</label>
+                    <textarea id="doctor_remarks" name="doctor_remarks" class="form-control form-control-custom" rows="2" placeholder="[ Enter additional remarks ]"></textarea>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-dark fw-bold px-4">[ SAVE CONSULTATION ]</button>
+                </div>
+            </form>
+
+            <div class="ascii-divider mt-4"></div>
+        </div>
+    </div>
+
+</body>
+</html>

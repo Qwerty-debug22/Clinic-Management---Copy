@@ -1,0 +1,64 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>a02904a5-6274-4c26-a001-fdf9ffd75185</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>templates\app.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Clinic Management</Name>
+    <RootNamespace>Clinic Management</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Clinic_Management.py" />
+    <Compile Include="templates\app.py" />
+    <Compile Include="templates\Create_admin.py" />
+    <Compile Include="templates\model.py" />
+    <Compile Include="templates\reset_admin.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="templates\appointments.html" />
+    <Content Include="templates\appointment_calendar.html" />
+    <Content Include="templates\billing.html" />
+    <Content Include="templates\consultation_form.html" />
+    <Content Include="templates\consultation_view.html" />
+    <Content Include="templates\dashboard_admin.html" />
+    <Content Include="templates\dashboard_doctor.html" />
+    <Content Include="templates\dashboard_patient.html" />
+    <Content Include="templates\doctors.html" />
+    <Content Include="templates\doctor_profile.html" />
+    <Content Include="templates\list.html" />
+    <Content Include="templates\login.html" />
+    <Content Include="templates\patients.html" />
+    <Content Include="templates\patient_profile.html" />
+    <Content Include="templates\prescription_print.html" />
+    <Content Include="templates\prescription_view.html" />
+    <Content Include="templates\register.html" />
+    <Content Include="templates\register_doctor.html" />
+    <Content Include="templates\schedule_appointment.html" />
+    <Content Include="templates\services.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

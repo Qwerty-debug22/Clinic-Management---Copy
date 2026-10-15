@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Saved Consultation Record</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .consultation-box {
+            max-width: 680px;
+            margin: 30px auto;
+            border: 2px dashed #000;
+            background-color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 30px;
+        }
+
+        .ascii-divider {
+            border-top: 1px dashed #000;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    <div class="container">
+        <div class="consultation-box shadow-sm">
+
+            <div class="ascii-divider"></div>
+            <h4 class="text-center text-uppercase fw-bold m-0">SAVED CONSULTATION RECORD</h4>
+            <div class="ascii-divider"></div>
+
+            <div class="mb-3">
+                <div><strong>Patient:</strong> {{ consultation.patient.first_name }} {{ consultation.patient.last_name }}</div>
+                <div><strong>Doctor:</strong> {{ consultation.doctor.doctor_name }}</div>
+                <div><strong>Date:</strong> {{ consultation.consultation_date }}</div>
+                <div><strong>Appointment ID:</strong> #{{ consultation.appointment_id }}</div>
+            </div>
+
+            <div class="ascii-divider"></div>
+
+            <div class="mb-3">
+                <strong>Chief Complaint:</strong>
+                <p class="mb-0 text-wrap">{{ consultation.chief_complaint }}</p>
+            </div>
+
+            {% if consultation.clinical_notes %}
+            <div class="mb-3">
+                <strong>Clinical Notes / History:</strong>
+                <p class="mb-0 text-wrap">{{ consultation.clinical_notes }}</p>
+            </div>
+            {% endif %}
+
+            {% if consultation.assessment %}
+            <div class="mb-3">
+                <strong>Assessment:</strong>
+                <p class="mb-0 text-wrap">{{ consultation.assessment }}</p>
+            </div>
+            {% endif %}
+
+            <div class="mb-3">
+                <strong>Diagnosis:</strong>
+                <p class="mb-0 text-wrap fw-bold">{{ consultation.diagnosis }}</p>
+            </div>
+
+            <div class="mb-3">
+                <strong>Treatment Plan:</strong>
+                <p class="mb-0 text-wrap">{{ consultation.treatment_plan }}</p>
+            </div>
+
+            {% if consultation.doctor_remarks %}
+            <div class="mb-3">
+                <strong>Doctor's Remarks:</strong>
+                <p class="mb-0 text-wrap">{{ consultation.doctor_remarks }}</p>
+            </div>
+            {% endif %}
+
+            <div class="ascii-divider"></div>
+
+            <div class="text-center mt-3">
+                <a href="{{ url_for('schedule_appointment') }}" class="btn btn-outline-dark btn-sm">[ Back to Appointments ]</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

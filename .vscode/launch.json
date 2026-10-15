@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "name": "Run Clinic Management System",
+      "program": "${workspaceFolder}/Clinic Management/templates/app.py",
+      "cwd": "${workspaceFolder}/Clinic Management",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\* Running on (https?://\\S+)",
+        "uriFormat": "%s"
+      }
+    }
+  ]
+}

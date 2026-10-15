@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Medical History - Clinic Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        .navbar-custom {
+            background-color: #0d7a40;
+        }
+
+        .text-custom {
+            color: #0d7a40;
+        }
+
+        .btn-custom {
+            background-color: #0d7a40;
+            color: #fff;
+        }
+
+            .btn-custom:hover {
+                background-color: #09572d;
+                color: #fff;
+            }
+
+        .font-mono {
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="{{ url_for('dashboard_admin') }}">Clinic Management System</a>
+            <div class="d-flex align-items-center text-white">
+                <a href="{{ url_for('dashboard_admin') }}" class="btn btn-outline-light btn-sm me-2">
+                    <i class="bi bi-speedometer2"></i> Dashboard
+                </a>
+                <a href="{{ url_for('logout') }}" class="btn btn-outline-light btn-sm">
+                    <i class="bi bi-box-arrow-right"></i> Logout
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+
+        <!-- Flash Messages -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        {% for category, message in messages %}
+        <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+
+        <!-- Patient Header Info Card -->
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-white py-3">
+                <h5 class="mb-0 fw-bold text-custom"><i class="bi bi-person-badge me-2"></i>Patient Profile Information</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4 mb-2"><strong>Patient Code:</strong> {{ patient.patient_code }}</div>
+                    <div class="col-md-4 mb-2"><strong>PATIENT:</strong> <span class="text-uppercase fw-bold">{{ patient.first_name }} {{ patient.last_name }}</span></div>
+                    <div class="col-md-4 mb-2"><strong>Sex / Birth Date:</strong> {{ patient.sex }} / {{ patient.birth_date }}</div>
+                    <div class="col-md-4 mb-2"><strong>Contact Number:</strong> {{ patient.contact_number }}</div>
+                    <div class="col-md-8 mb-2"><strong>Address:</strong> {{ patient.address }}</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Laboratory Activity 9: Medical History Integration Card -->
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-white py-3 d-flex justify-content-between align-items-center">
+                <h5 class="mb-0 fw-bold text-custom"><i class="bi bi-journal-medical me-2"></i>Patient Medical History & Consultations</h5>
+                <span class="badge bg-success font-mono">Total Records: {{ patient.consultations|length }}</span>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead class="table-light font-mono">
+                            <tr>
+                                <th class="ps-3">Date</th>
+                                <th>Doctor</th>
+                                <th>Diagnosis</th>
+                                <th>Treatment Plan</th>
+                                <th class="text-center">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% if patient.consultations %}
+                            {% for c in patient.consultations %}
+                            <tr>
+                                <td class="ps-3 font-mono fw-bold">{{ c.consultation_date }}</td>
+                                <td>{{ c.doctor.doctor_name }}</td>
+                                <td><span class="fw-bold text-dark">{{ c.diagnosis }}</span></td>
+                                <td>{{ c.treatment_plan }}</td>
+                                <td class="text-center">
+                                    <a href="{{ url_for('view_consultation', appointment_id=c.appointment_id) }}" class="btn btn-sm btn-outline-success fw-bold">
+                                        👁️ View Record
+                                    </a>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                            {% else %}
+                            <tr>
+                                <td colspan="5" class="text-center py-4 text-muted">No medical history or consultation records found for this patient.</td>
+                            </tr>
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <a href="{{ url_for('dashboard_admin') }}" class="btn btn-secondary">
+                <i class="bi bi-arrow-left me-1"></i> Back to Dashboard
+            </a>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
